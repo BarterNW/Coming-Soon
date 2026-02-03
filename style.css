@@ -1,0 +1,127 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  height: 100vh;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(
+    145deg,
+    #05070d 0%,
+    #070c1a 35%,
+    #061a3a 70%,
+    #072a5c 100%
+  );
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+/* Brand text */
+.brand-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* Logo */
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: min(160px, 45vw);
+  height: auto;
+}
+
+/* Coming soon */
+.coming-soon {
+  letter-spacing: 0.35em;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  margin-bottom: 24px;
+}
+
+/* Footer
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.footer .line {
+  width: 80px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.4);
+} */
+ /* .socials {
+  display: flex;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.socials a {
+  opacity: 0.7;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.socials a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.socials img {
+  width: 20px;
+  height: 20px;
+}
+ */
+.socials {
+  display: flex;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  opacity: 0.75;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.socials a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.socials img {
+  width: 16px;
+  height: 16px;
+}
